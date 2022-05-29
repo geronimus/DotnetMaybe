@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Geronimus.Maybe</PackageId>
+    <Version>0.1.0-alpha</Version>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Authors>Graham Brown</Authors>
+    <Copyright>© 2022 Graham Brown (Geronimus)</Copyright>
+    <Company>geronumus</Company>
+    <Title>Geronimus.Maybe</Title>
+    <Description>Utility functions for dealing with values that may or may not be present.</Description>
+    <PackageProjectUrl>https://github.com/geronimus/DotnetMaybe</PackageProjectUrl>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/geronimus/DotnetMaybe.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../LICENCE" Pack="true" PackagePath="" />
+    <None Include="../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <!-- Required for Nuget Source Link / Health Check -->
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geronimus.Maybe", "Geronimus.Maybe\Geronimus.Maybe.csproj", "{FADAC09F-3097-416F-AE83-4333EF5B132A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geronimus.Maybe.Tests", "Geronimus.Maybe.Tests\Geronimus.Maybe.Tests.csproj", "{6AAFA34C-29C1-42E0-9B8C-684939458602}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FADAC09F-3097-416F-AE83-4333EF5B132A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADAC09F-3097-416F-AE83-4333EF5B132A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADAC09F-3097-416F-AE83-4333EF5B132A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADAC09F-3097-416F-AE83-4333EF5B132A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAFA34C-29C1-42E0-9B8C-684939458602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAFA34C-29C1-42E0-9B8C-684939458602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAFA34C-29C1-42E0-9B8C-684939458602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAFA34C-29C1-42E0-9B8C-684939458602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
